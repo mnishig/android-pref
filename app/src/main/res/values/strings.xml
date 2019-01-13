@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">pref</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <string name="pref_title_web_url">(chat embeded) Web URL:</string>
+    <string name="pref_default_web_url">yyy.com/chat/zzz</string>
+
+    <string name="pref_title_la365_account">LA365 accountId:</string>
+    <string name="pref_default_la365_account">12345678</string>
+
+</resources>
