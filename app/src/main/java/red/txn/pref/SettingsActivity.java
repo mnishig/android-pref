@@ -143,15 +143,16 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.pref_general);
+            addPreferencesFromResource(R.xml.pref_la365);
             setHasOptionsMenu(true);
 
             // Bind the summaries of EditText/List/Dialog/Ringtone preferences
             // to their values. When their values change, their summaries are
             // updated to reflect the new value, per the Android Design
             // guidelines.
-            bindPreferenceSummaryToValue(findPreference("web_url"));
-            bindPreferenceSummaryToValue(findPreference("la365_account"));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_key_webUrl)));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_key_la365Account)));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_key_authMethod)));
         }
 
         @Override

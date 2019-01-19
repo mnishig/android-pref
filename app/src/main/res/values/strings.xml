@@ -5,10 +5,17 @@
 
     <!-- Example General settings -->
 
-    <string name="pref_title_web_url">(chat embeded) Web URL:</string>
-    <string name="pref_default_web_url">yyy.com/chat/zzz</string>
+    <string name="pref_title_webUrl">(chat embedded) Web URL:</string>
+    <string name="pref_default_webUrl">yyy.com/chat/zzz</string>
 
-    <string name="pref_title_la365_account">LA365 accountId:</string>
-    <string name="pref_default_la365_account">12345678</string>
+    <string name="pref_title_la365Account">LA365 accountId:</string>
+    <string name="pref_default_la365Account">12345678</string>
 
+    <string name="pref_title_authMethod">associte authMethod</string>
+    <string name="pref_default_authMethod">auth.getAuthority</string>
+
+
+    <string name="pref_key_webUrl">webUrl</string>
+    <string name="pref_key_la365Account">la365Account</string>
+    <string name="pref_key_authMethod">authMethod</string>
 </resources>
